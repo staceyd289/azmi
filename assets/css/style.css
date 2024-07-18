@@ -475,6 +475,7 @@ body.active { overflow: hidden; }
   display: flex;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
 }
 
 .trend-card .card-title {
@@ -482,14 +483,17 @@ body.active { overflow: hidden; }
   font-size: var(--fs-7);
   font-weight: var(--fw-700);
   transition: var(--transition-1);
+  cursor: pointer;
 }
 
-.trend-card .card-title:is(:hover, :focus) { color: var(--blue-crayola); }
+.trend-card .card-title:is(:hover, :focus) { color: var(--blue-crayola); 
+  cursor: pointer;}
 
 .trend-card .card-title .span {
   color: var(--cadet-blue-crayola);
   display: inline-block;
   margin-inline-start: 5px;
+  cursor: pointer;
 }
 
 .trend-card .card-value {
@@ -690,6 +694,7 @@ body.active { overflow: hidden; }
 .instruction-card .card-title {
   font-size: var(--fs-4);
   margin-block: 5px 15px;
+  cursor: pointer;
 }
 
 .instruction-card .card-text { padding-inline: 20px; }
