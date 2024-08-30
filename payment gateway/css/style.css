@@ -15,7 +15,8 @@
   align-items: center;
   padding:25px;
   min-height: 100vh;
-  background: skyblue;
+  background: linear-gradient(to bottom, #000, hsl(222, 100%, 50%), hsl(222, 100%, 50%));  ;
+
 }
 
 .container form{
@@ -94,7 +95,8 @@
 a{
   width: 500vh;
   height: 260px;
-  background: #27ae60;
+  background: linear-gradient(to bottom, #000, hsl(222, 100%, 50%), hsl(222, 100%, 50%));  ;
+
   text-decoration: none;
   color: white;
   
